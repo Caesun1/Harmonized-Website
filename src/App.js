@@ -78,6 +78,31 @@ function App() {
           <span className="as-seen-on-text">The Walker Collection</span>
         </div>
       </section>
+      <section className="local-organizer-section">
+        <h2 className="local-organizer-heading">Connect with your local professional organizer</h2>
+        <div className="local-organizer-subheading">
+          Discover a new sense of joy, beauty, and clarity
+        </div>
+        <div className="local-organizer-content">
+          <div className="local-organizer-profile">
+            <img className="local-organizer-img" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Kristian Dunning" />
+          </div>
+          <div className="local-organizer-divider"></div>
+          <div className="local-organizer-info">
+            <div className="local-organizer-name">Connie Walker</div>
+            <div className="local-organizer-title">Owner, Grand Rapids</div>
+            <div className="local-organizer-rating">
+              <span className="local-organizer-stars">★★★★★</span>
+              <span className="local-organizer-score">5.0</span>
+              <span className="local-organizer-reviews">(3)</span>
+            </div>
+            <a href="#" className="local-organizer-learn">Learn More</a>
+          </div>
+        </div>
+        <div className="local-organizer-btn-wrap">
+          <button className="cta-btn local-organizer-btn">Get Started</button>
+        </div>
+      </section>
       <section className="organizer-section">
         <div className="organizer-image-wrap">
           <img className="organizer-image" src="/Two-Women-Cleaning.jpg" alt="Two Women Cleaning" />
