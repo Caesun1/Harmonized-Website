@@ -106,7 +106,7 @@ function App() {
   return (
     <div className="App">
       <header className="header" ref={headerRef}>
-        <div className="logo">LOGO</div>
+        <div className="header-logo">Home[Harmonized]</div>
         <nav className="nav">
           <a href="#shop">Shop</a>
           <a href="#hire">Hire Us</a>
@@ -322,7 +322,7 @@ function App() {
       <section className="quote-section">
         <blockquote>
           <div className="quote-main">
-            The way your home is set up should support the way you want to feel. Once your space is organized, life feels lighter, simpler, and begins to spark joy.<br />Welcome to a home [Harmonized].
+            The way your home is set up should support the way you want to feel. Once your space is organized, life feels lighter and simpler.<br />Welcome to a [Harmonized] Home.
           </div>
         </blockquote>
         <button className="cta-btn quote-section-btn">Get Started</button>
@@ -333,7 +333,7 @@ function App() {
       <footer className="site-footer">
         <div className="footer-main">
           <div className="footer-subscribe">
-            <div className="footer-logo">Harmonized</div>
+            <div className="footer-logo">[Harmonized]</div>
             <form className="footer-email-form" onSubmit={(e) => e.preventDefault()}>
               <input type="email" placeholder="Enter your email for news..." />
               <button type="submit">→</button>

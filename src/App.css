@@ -29,6 +29,15 @@ body {
   margin-bottom: 8px;
 }
 
+.header-logo {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
 .nav {
   display: flex;
   justify-content: center;
